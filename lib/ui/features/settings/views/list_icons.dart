@@ -1,0 +1,35 @@
+import 'package:flutter/material.dart';
+
+/// Icon for the `iconKey` of a place type, category or payment method (seed keys in
+/// `seed_data.dart`; keys of rows the user added fall back to a generic icon).
+IconData iconForKey(String? key) => switch (key) {
+  'shopping_cart' => Icons.shopping_cart_outlined,
+  'storefront' => Icons.storefront_outlined,
+  'bakery' => Icons.bakery_dining_outlined,
+  'pharmacy' => Icons.local_pharmacy_outlined,
+  'butcher' => Icons.kebab_dining_outlined,
+  'devices' => Icons.devices_outlined,
+  'cafe' => Icons.local_cafe_outlined,
+  'restaurant' => Icons.restaurant_outlined,
+  'fast_food' => Icons.lunch_dining_outlined,
+  'content_cut' => Icons.content_cut_rounded,
+  'car_wash' => Icons.local_car_wash_outlined,
+  'fitness' => Icons.fitness_center_outlined,
+  'build' => Icons.build_outlined,
+  'payments' => Icons.payments_outlined,
+  'credit_card' => Icons.credit_card_outlined,
+  'wallet' => Icons.account_balance_wallet_outlined,
+  'contactless' => Icons.contactless_outlined,
+  'account_balance' => Icons.account_balance_outlined,
+  'payment' => Icons.payment_outlined,
+  'local_drink' => Icons.local_drink_outlined,
+  'cookie' => Icons.cookie_outlined,
+  'egg' => Icons.egg_outlined,
+  'cleaning' => Icons.cleaning_services_outlined,
+  'hygiene' => Icons.soap_outlined,
+  'baby' => Icons.child_friendly_outlined,
+  'checkroom' => Icons.checkroom_outlined,
+  'directions_car' => Icons.directions_car_outlined,
+  'category' => Icons.category_outlined,
+  _ => Icons.label_outline_rounded,
+};

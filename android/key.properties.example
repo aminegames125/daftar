@@ -1,0 +1,7 @@
+# Copy to android/key.properties (same folder as this file) and fill in.
+# key.properties is git-ignored. Never commit it or the .jks file.
+storePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=upload
+# Path relative to the android/ folder. Keep the keystore OUTSIDE the repo:
+storeFile=../../daftar-upload-keystore.jks
