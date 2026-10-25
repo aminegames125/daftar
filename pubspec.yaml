@@ -13,7 +13,7 @@ dependencies:
 
   # State + navigation
   flutter_riverpod: ^3.4.3
-  go_router: ^18.1.0
+  go_router: ^18.1.1
 
   # Local database (offline-first, sync-ready)
   drift: ^2.35.2
